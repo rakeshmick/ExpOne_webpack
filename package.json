@@ -1,0 +1,22 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "learn webpack",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "webpack": "^4.11.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "webpack": "^4.11.0",
+    "webpack-cli": "^3.0.2"
+  },
+  "scripts": {
+    "test": "npm test",
+    "build": "webpack",
+    "start": "http-server dist"
+  },
+  "author": "",
+  "license": "ISC"
+}
